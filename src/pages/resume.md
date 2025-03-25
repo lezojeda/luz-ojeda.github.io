@@ -7,7 +7,6 @@ title: 'resume'
 
 - **Compass** (Aug 2024 - Today)
   - Reorganized an internal marketing page with grid and list view, pagination, multiple filters and a favorites folder
-  - Took the initiative to create an Epic in Jira where to gather many tasks throughout the internal marketing app to improve its codebase. Identifying issues, potential improvements through refactoring, ordering of files, etc.
 - **Southworks** (Jan 2023 - Jul 2024)
   - Created **Python** scripts using **Selenium** and **BeautifulSoup** to scrape makeup data from various retailers, processed into Excel files.
   - Migrated the **Azure Virtual Desktop** service to React from Knockout JS, implementing and testing new features.
