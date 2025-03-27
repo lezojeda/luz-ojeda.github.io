@@ -3,7 +3,7 @@ layout: '../layouts/Base.astro'
 title: 'resume'
 ---
 
-[Download](/public/Lucas_E_Ojeda_Resume.pdf)
+[Download](/Lucas_E_Ojeda_Resume.pdf)
 
 ## work experience (+5 years)
 
