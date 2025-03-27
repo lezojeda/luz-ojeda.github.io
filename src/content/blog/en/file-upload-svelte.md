@@ -229,7 +229,7 @@ export const actions = {
 
 The `uploadFile` function can be included in the same file or another, depending on the organization of the project.
 
-If you have any questions, feel free to reach me via e-mail (luzojeda@proton.me). In [cook-web](https://github.com/lezojeda/cook-web) in `src/routes/admin/crear-receta` there is a specific example using all of the above but depending on the date there may already be differences about the concrete implementation.
+If you have any questions, feel free to reach me via e-mail (lezojeda@gmail.com). In [cook-web](https://github.com/lezojeda/cook-web) in `src/routes/admin/crear-receta` there is a specific example using all of the above but depending on the date there may already be differences about the concrete implementation.
 
 ## References:
 - [How to implement file upload with SvelteKit](https://www.okupter.com/blog/sveltekit-file-upload)

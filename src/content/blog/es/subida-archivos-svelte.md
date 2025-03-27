@@ -229,7 +229,7 @@ export const actions = {
 
 La función `uploadFile` puede ser incluida en el mismo archivo u otro, dependiendo la organización del proyecto y cada uno.
 
-Cualquier duda no hay problema con comunicarse via e-mail (luzojeda@proton.me). En [cook-web](https://github.com/lezojeda/cook-web) en `src/routes/admin/crear-receta` hay un ejemplo concreto utilizando lo anterior pero dependiendo la fecha puede ser que ya haya cambiado algo de la implementación.
+Cualquier duda no hay problema con comunicarse via e-mail (lezojeda@gmail.com). En [cook-web](https://github.com/lezojeda/cook-web) en `src/routes/admin/crear-receta` hay un ejemplo concreto utilizando lo anterior pero dependiendo la fecha puede ser que ya haya cambiado algo de la implementación.
 
 ## Referencias
 

@@ -3,6 +3,8 @@ layout: '../layouts/Base.astro'
 title: 'resume'
 ---
 
+[Download](/public/Lucas_E_Ojeda_Resume.pdf)
+
 ## work experience (+5 years)
 
 - **Compass** (Aug 2024 - Today)

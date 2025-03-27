@@ -19,7 +19,7 @@ Y haciendo un zoom out se pueden ver aún más hacia el Este:
 ![Zoom out del Campo de Dalías](../../../images/almeria/zoom_out.png)
 
 Me resultó un dato interesante ya que no tenía idea que existiera algo así. No al menos a esta escala ya que en diciembre del año pasado fui a Punta Indio, en la provincia de Buenos Aires, y atravesando la ruta 36 se pueden encontrar áreas cubiertas similares:
-![Imagenes similares camino a Punta Indio, Buenos Aires](../../../images/almeria/punta_indio.png)
+![Imágenes similares camino a Punta Indio, Buenos Aires](../../../images/almeria/punta_indio.png)
 El área total cubierta es mucho menor y no se ve tan fácil desde grandes alturas como en el caso de Almeria. Pero lo traigo al post como dato de color que tenemos este tipo de agricultura en nuestro país.
 
 Tiene todo el sentido considerando el área cultivada no cubierta en cualquier país del mundo. Pero no dejan de ser imágenes satelitales interesantes.

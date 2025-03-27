@@ -3,6 +3,8 @@ layout: '../../layouts/Base.astro'
 title: 'cv'
 ---
 
+[Descargar](/public/Lucas_E_Ojeda_Resume_ES.pdf)
+
 ## experiencia profesional (+5 años)
 ---
 

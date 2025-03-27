@@ -18,11 +18,11 @@ Para poder mostrar el contenido en español e inglés uso [jekyll-multiple-langu
 
 Quería evitar utilizar JavaScript todo lo posible para concentrarme sólo en el contenido de la página en términos del blog y como carta de presentación de mi, mis proyectos, fotos, gustos, etc. Por lo que hay sólo un pequeño script para la visiblidad de la sidebar en la vista mobile. Quizás esa funcionalidad puede ser lograda sólo con HTML/CSS pero considerando que son únicamente 6 líneas de código encontré más fácil hacerlo así.
 
-## Imagenes
+## Imágenes
 
-Las imagenes en [fotos](/es/fotos) y en [leyendo](/es/leyendo) son cargadas en forma diferida usando `loading="lazy"` en cada `img` y un mínimo de altura (para evitar que todas sean cargadas a la vez; al tener dimensiones de 0x0 en una primera instancia si el valor `height` no es especificado). A su vez, utilizo `srcset` con dos opciones de imagenes para cada caso, una para mobile y otra para tablet/desktop, evitando así enviar imagenes innecesariamente grandes a dispositivos chicos. 
+Las imágenes en [fotos](/es/fotos) y en [leyendo](/es/leyendo) son cargadas en forma diferida usando `loading="lazy"` en cada `img` y un mínimo de altura (para evitar que todas sean cargadas a la vez; al tener dimensiones de 0x0 en una primera instancia si el valor `height` no es especificado). A su vez, utilizo `srcset` con dos opciones de imágenes para cada caso, una para mobile y otra para tablet/desktop, evitando así enviar imágenes innecesariamente grandes a dispositivos chicos. 
 
-Con el objetivo de reducir lo máximo posible el peso de las imagenes de la sección fotos antes de incluirlas en el repositorio las comprimo usando [Tinyjpg](https://tinyjpg.com/). Una imagen de 235.8KB con 1280px de ancho es reducida a 166.4KB por ejemplo: un 29% menos. Vale el pequeño esfuerzo. Para una única imagen puede no ser mucho pero considerando que a futuro me gustaría agregar tantas imagenes como quisiera y no siempre tenemos Wi-Fi disponible para no preocuparnos por el peso de los archivos recibidos es que incluyo este paso extra.
+Con el objetivo de reducir lo máximo posible el peso de las imágenes de la sección fotos antes de incluirlas en el repositorio las comprimo usando [Tinyjpg](https://tinyjpg.com/). Una imagen de 235.8KB con 1280px de ancho es reducida a 166.4KB por ejemplo: un 29% menos. Vale el pequeño esfuerzo. Para una única imagen puede no ser mucho pero considerando que a futuro me gustaría agregar tantas imágenes como quisiera y no siempre tenemos Wi-Fi disponible para no preocuparnos por el peso de los archivos recibidos es que incluyo este paso extra.
 
 Para mis fotos, uso una custom [collection](https://jekyllrb.com/docs/collections/) ya que quería tener un archivo markdown para cada una. Lo que me permite agregar un título (`title`) y un atributo `alt` para las versiones en español y en inglés de la página respectivamente.
 
