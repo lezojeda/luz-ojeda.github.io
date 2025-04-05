@@ -14,6 +14,7 @@
 
 * {
 	box-sizing: border-box;
+	scrollbar-color: var(--scroll-bar-thumb-color) var(--scroll-bar-track-color);
 }
 
 body {
@@ -99,9 +100,7 @@ input[type="time"] {
 	border-radius: 4px;
 	background-color: var(--grey100);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	transition:
-		border-color 0.3s,
-		box-shadow 0.3s;
+	transition: border-color 0.3s, box-shadow 0.3s;
 	min-height: 2.5em;
 }
 

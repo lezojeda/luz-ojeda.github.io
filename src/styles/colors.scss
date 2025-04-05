@@ -54,6 +54,9 @@
 	--table-border: var(--border);
 	--table-header-color: var(--grey900);
 	--table-text-color: var(--text);
+
+	--scroll-bar-thumb-color: var(--primary);
+	--scroll-bar-track-color: var(--grey400);
 }
 
 /** Modes **/
@@ -86,6 +89,9 @@
 		--table-border: var(--grey700);
 		--table-header-color: var(--grey300);
 		--table-text-color: var(--grey300);
+
+		--scroll-bar-thumb-color: var(--primary);
+		--scroll-bar-track-color: var(--grey600);
 	}
 
 	.dracula {
