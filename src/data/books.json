@@ -2,6 +2,115 @@
 	{
 		"2025": [
 			{
+				"title": "They Thought They Were Free",
+				"link": "https://www.goodreads.com/book/show/978689.They_Thought_They_Were_Free",
+				"genres": [
+					"history",
+					"nonfiction",
+					"politics"
+				],
+				"status": "currently reading",
+				"author": "Milton Stanford Mayer"
+			},
+			{
+				"title": "El Retrato de Dorian Grey",
+				"link": "https://www.goodreads.com/book/show/45358783-el-retrato-de-dorian-grey",
+				"genres": [
+					"classics",
+					"fiction",
+					"gothic"
+				],
+				"status": "2025-05-04T00:00:00.000Z",
+				"author": "Oscar Wilde"
+			},
+			{
+				"title": "The Midnight Library",
+				"link": "https://www.goodreads.com/book/show/52578297-the-midnight-library",
+				"genres": [
+					"fiction",
+					"fantasy",
+					"magical realism"
+				],
+				"status": "2025-04-26T00:00:00.000Z",
+				"author": "Matt Haig"
+			},
+			{
+				"title": "Permutation City",
+				"link": "https://www.goodreads.com/book/show/156784.Permutation_City",
+				"genres": [
+					"science fiction",
+					"fiction",
+					"cyberpunk"
+				],
+				"status": "2025-04-24T00:00:00.000Z",
+				"author": "Greg Egan"
+			},
+			{
+				"title": "Crimen y Castigo",
+				"link": "https://www.goodreads.com/book/show/103582.Crimen_y_castigo",
+				"genres": [
+					"fiction",
+					"russian literature",
+					"novels"
+				],
+				"status": "2025-04-15T00:00:00.000Z",
+				"author": "Fyodor Dostoevsky"
+			},
+			{
+				"title": "Respiración Artificial",
+				"link": "https://www.goodreads.com/book/show/1646.Respiraci_n_artificial",
+				"genres": [
+					"fiction",
+					"literature",
+					"spanish literature"
+				],
+				"status": "2025-03-15T00:00:00.000Z",
+				"author": "Ricardo Piglia"
+			},
+			{
+				"title": "Frutos Extraños",
+				"link": "https://www.goodreads.com/book/show/8116832-frutos-extra-os",
+				"genres": [
+					"journalism",
+					"nonfiction"
+				],
+				"status": "2025-02-28T00:00:00.000Z",
+				"author": "Leila Guerriero"
+			},
+			{
+				"title": "How the World Really Works: A Scientist's Guide to Our Past, Present and Future",
+				"link": "https://www.goodreads.com/book/show/56587388-how-the-world-really-works",
+				"genres": [
+					"nonfiction",
+					"science",
+					"history"
+				],
+				"status": "2025-02-28T00:00:00.000Z",
+				"author": "Vaclav Smil"
+			},		
+			{
+				"title": "Slaughterhouse-Five",
+				"link": "https://www.goodreads.com/book/show/4981.Slaughterhouse_Five",
+				"genres": [
+					"classics",
+					"fiction",
+					"war"
+				],
+				"status": "2025-02-15T00:00:00.000Z",
+				"author": "Kurt Vonnegut Jr."
+			},		
+			{
+				"title": "El Libro de Arena",
+				"link": "https://www.goodreads.com/book/show/929572.El_libro_de_arena",
+				"genres": [
+					"short stories",
+					"fiction",
+					"magical realism"
+				],
+				"status": "2025-02-10T00:00:00.000Z",
+				"author": "Jorge Luis Borges"
+			},
+			{
 				"title": "The Red Book: Liber Novus",
 				"link": "https://www.goodreads.com/book/show/6454477-the-red-book",
 				"genres": [
@@ -9,7 +118,7 @@
 					"philosophy",
 					"nonfiction"
 				],
-				"status": "currently reading",
+				"status": "2025-02-06T00:00:00.000Z",
 				"author": "Carl Jung"
 			},
 			{
