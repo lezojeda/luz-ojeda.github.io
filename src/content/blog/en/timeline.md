@@ -5,6 +5,8 @@ tags: ["personal"]
 ---
 [Inspired by](https://taylor.town/timeline)
 
+2025 ⛰️ moved to Bariloche, Argentina
+
 2024 💭 read Jung works for the first time
 
 2024 🍞 began learning to bake
