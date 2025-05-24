@@ -32,6 +32,8 @@
 }
 
 .mobile {
+	display: block;
+
 	@media (min-width: $mobile) {
 		display: none;
 	}

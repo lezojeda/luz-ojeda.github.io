@@ -1,11 +1,10 @@
 ---
-import { SITE_TITLE } from "../consts";
+import { MOBILE_SITE_TITLE, SITE_TITLE } from "../consts";
 import HamburgerButton from "./HamburgerButton.astro";
 import LanguagePicker from "./LanguagePicker.astro";
 import Nav from "./Nav.astro";
 import ThemeIcon from "./ThemeIcon.astro";
 import { checkMonth } from "../utils/checkMonth";
-
 ---
 
 <header>
@@ -13,8 +12,9 @@ import { checkMonth } from "../utils/checkMonth";
 		<div>
 			<LanguagePicker />
 		</div>
-		<h2>{SITE_TITLE}</h2>
-		<div>
+		<h2 class="laptop">{SITE_TITLE}</h2>
+		<h2 class="mobile">{MOBILE_SITE_TITLE}</h2>
+		<div class="flex-center">
 			{!checkMonth(9) && <ThemeIcon />}
 			<HamburgerButton />
 		</div>
@@ -31,13 +31,8 @@ import { checkMonth } from "../utils/checkMonth";
 
 	.first-row {
 		display: flex;
-		justify-content: space-between;
-	}
-
-	.first-row > * {
 		align-items: center;
-		flex: 1;
-		display: flex;
+		justify-content: space-between;
 	}
 
 	.first-row h2 {
