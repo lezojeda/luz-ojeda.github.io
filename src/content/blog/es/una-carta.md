@@ -11,3 +11,5 @@ Siento despertarme de un sueño largo y al hablar con vos el otro día recordé 
 Es contrafáctico pero un sentimiento fuerte y recurrente también. Si bien nuestros sueños me parece que eran y son incompatibles quizás estoy y estuve tremendamente equivocado y si hubiera querido le hubiéramos encontrado la vuelta.
 
 Probablemente todo esto ni te lo preguntes y pudiste dar vuelta la página en su momento. Finalmente me fui a dónde me quería ir y vos también, estamos lejos, pero hablar con vos me transporta a un momento de mi vida donde las _cosas eran más simples_. Tan cliché. Pero es verdad, al fin. Y es un momento al que llegamos todos en tarde o temprano de la vida, supongo. Me transporta a un momento antes de muchos traumas, dolores, decepciones, complicaciones, golpes, etc. Hay algo de idealización pero a veces siento que cambié tanto pero después hablo con vos, y siento que sigo siendo el mismo de siempre solo que más curtido por los años.
+
+Probablemente ya sea tarde. Todo pasa, incluyendo esto.
