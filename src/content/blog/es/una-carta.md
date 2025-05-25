@@ -4,7 +4,7 @@ pubDate: 2025-05-24
 tags: ["personal"]
 ---
 
-Te quiero hablar pero no encuentro una razón válida para hacerlo y simplemente preguntarte cómo estás me parece raro después de tantos años, a pesar de que vos ya lo hiciste.
+Te quiero hablar pero no encuentro una razón válida para hacerlo y simplemente preguntarte cómo estás me parece raro después de tantos años, a pesar de que vos me hablaste, y todos estos años hablamos varias veces. Pero siempre con excusas o reacciones. Nunca un "Hola X, cómo estás?" con subtexto de "Hola, estaba pensando en vos y te hablé".
 
 Siento despertarme de un sueño largo y al hablar con vos el otro día recordé esta recurrente sensación a lo largo de los años que el cortar el vínculo que tuvimos representó bifurcación hacia una peor vida y una seguidilla de malas decisiones.
 
