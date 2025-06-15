@@ -1,51 +1,57 @@
-const express = require('express');
-const multer = require('multer');
-const fs = require('fs');
-const path = require('path');
-const cors = require('cors');
+const express = require("express");
+const multer = require("multer");
+const fs = require("fs");
+const path = require("path");
+const cors = require("cors");
 
 const app = express();
 app.use(cors());
-const upload = multer({ dest: 'tmp/' });
+const upload = multer({ dest: "tmp/" });
 
-const astroPicturesDir = path.resolve(__dirname, '..', 'src', 'content', 'pictures');
-const filesDir = path.join(astroPicturesDir, 'files');
+const astroPicturesDir = path.resolve(__dirname, "..", "src", "content", "pictures");
+const filesDir = path.join(astroPicturesDir, "files");
 
-app.post('/upload', upload.single('image'), (req, res) => {
-  const { titleEn, titleEs, pubDate } = req.body;
+app.post("/upload", upload.single("image"), (req, res) => {
+	let { titleEn, titleEs, pubDate } = req.body;
 
-  const ext = path.extname(req.file.originalname).toLowerCase();
-  const baseName = req.file.originalname.toLowerCase().replace(/\s+/g, '_');
+	// Use today's date if no date passed
+	if (!pubDate) {
+		const now = new Date();
+		pubDate = now.toISOString().split("T")[0]; // "YYYY-MM-DD"
+	}
 
-  const imageDest = path.join(filesDir, baseName);
-  const jsonDest = path.join(astroPicturesDir, baseName.replace(ext, '.json'));
+	const ext = path.extname(req.file.originalname).toLowerCase();
+	const baseName = req.file.originalname.toLowerCase().replace(/\s+/g, "_");
 
-  console.log('Moving image to:', imageDest);
-  console.log('Creating JSON at:', jsonDest);
+	const imageDest = path.join(filesDir, baseName);
+	const jsonDest = path.join(astroPicturesDir, baseName.replace(ext, ".json"));
 
-  try {
-    fs.mkdirSync(filesDir, { recursive: true });
-    fs.renameSync(req.file.path, imageDest);
-  } catch (err) {
-    console.error("Error moving file:", err);
-    return res.status(500).send("File move failed");
-  }
+	console.log("Moving image to:", imageDest);
+	console.log("Creating JSON at:", jsonDest);
 
-  const json = {
-    image: `./files/${baseName}`,
-    pubDate,
-    en: { title: titleEn },
-    es: { title: titleEs }
-  };
+	try {
+		fs.mkdirSync(filesDir, { recursive: true });
+		fs.renameSync(req.file.path, imageDest);
+	} catch (err) {
+		console.error("Error moving file:", err);
+		return res.status(500).send("File move failed");
+	}
 
-  try {
-    fs.writeFileSync(jsonDest, JSON.stringify(json, null, 2));
-  } catch (err) {
-    console.error("Error writing JSON:", err);
-    return res.status(500).send("JSON write failed");
-  }
+	const json = {
+		image: `./files/${baseName}`,
+		pubDate,
+		en: { title: titleEn },
+		es: { title: titleEs },
+	};
 
-  res.sendStatus(200);
+	try {
+		fs.writeFileSync(jsonDest, JSON.stringify(json, null, 2));
+	} catch (err) {
+		console.error("Error writing JSON:", err);
+		return res.status(500).send("JSON write failed");
+	}
+
+	res.sendStatus(200);
 });
 
 app.listen(3000, () => console.log("Uploader running on http://localhost:3000"));
