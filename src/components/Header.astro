@@ -9,12 +9,12 @@ import { checkMonth } from "../utils/checkMonth";
 
 <header>
 	<div class="first-row">
-		<div>
+		<div class="left">
 			<LanguagePicker />
 		</div>
 		<h2 class="laptop">{SITE_TITLE}</h2>
 		<h2 class="mobile">{MOBILE_SITE_TITLE}</h2>
-		<div class="flex-center">
+		<div class="right">
 			{!checkMonth(9) && <ThemeIcon />}
 			<HamburgerButton />
 		</div>
@@ -33,15 +33,21 @@ import { checkMonth } from "../utils/checkMonth";
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+
+		.left,
+		.right {
+			flex-grow: 1;
+			flex-basis: 0;
+		}
+
+		.right {
+			display: flex;
+			justify-content: end;
+		}
 	}
 
 	.first-row h2 {
 		margin: 0;
-		justify-content: center;
-	}
-
-	.first-row div:nth-of-type(2) {
-		justify-content: end;
 	}
 
 	@media (max-width: $mobile) {
