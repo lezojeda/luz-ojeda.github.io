@@ -21,7 +21,15 @@ app.post("/upload", upload.single("image"), (req, res) => {
 	}
 
 	const ext = path.extname(req.file.originalname).toLowerCase();
-	const baseName = !!filename ? filename : req.file.originalname.toLowerCase().replace(/\s+/g, "_");
+	// If filename is provided, ensure it has the correct extension
+	let baseName;
+	if (filename) {
+		// Remove any existing extension from the provided filename and add the correct one
+		const filenameWithoutExt = path.parse(filename).name;
+		baseName = filenameWithoutExt + ext;
+	} else {
+		baseName = req.file.originalname.toLowerCase().replace(/\s+/g, "_");
+	}
 
 	const imageDest = path.join(filesDir, baseName);
 	const jsonDest = path.join(astroPicturesDir, baseName.replace(ext, ".json"));
@@ -52,7 +60,7 @@ app.post("/upload", upload.single("image"), (req, res) => {
 	}
 
 	res.sendStatus(200);
-	console.log("Image successfully uploaded.\n")
+	console.log("Image successfully uploaded.\n");
 });
 
 app.listen(3000, () => console.log("Uploader running on http://localhost:3000"));
