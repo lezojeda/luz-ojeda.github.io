@@ -52,6 +52,7 @@ app.post("/upload", upload.single("image"), (req, res) => {
 	}
 
 	res.sendStatus(200);
+	console.log("Image successfully uploaded.\n")
 });
 
 app.listen(3000, () => console.log("Uploader running on http://localhost:3000"));
