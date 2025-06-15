@@ -12,7 +12,7 @@ const astroPicturesDir = path.resolve(__dirname, "..", "src", "content", "pictur
 const filesDir = path.join(astroPicturesDir, "files");
 
 app.post("/upload", upload.single("image"), (req, res) => {
-	let { titleEn, titleEs, pubDate } = req.body;
+	let { titleEn, titleEs, pubDate, filename } = req.body;
 
 	// Use today's date if no date passed
 	if (!pubDate) {
@@ -21,7 +21,7 @@ app.post("/upload", upload.single("image"), (req, res) => {
 	}
 
 	const ext = path.extname(req.file.originalname).toLowerCase();
-	const baseName = req.file.originalname.toLowerCase().replace(/\s+/g, "_");
+	const baseName = !!filename ? filename : req.file.originalname.toLowerCase().replace(/\s+/g, "_");
 
 	const imageDest = path.join(filesDir, baseName);
 	const jsonDest = path.join(astroPicturesDir, baseName.replace(ext, ".json"));
