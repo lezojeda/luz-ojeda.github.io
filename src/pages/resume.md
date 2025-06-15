@@ -8,7 +8,7 @@ title: 'resume'
 ## work experience (+5 years)
 
 - **Compass** (Aug 2024 - Today)
-  - Reorganized an internal marketing page with grid and list view, pagination, multiple filters and a favorites folder
+  - Reorganized the  internal marketing page with grid and list view, pagination, multiple filters and folders system
 - **Southworks** (Jan 2023 - Jul 2024)
   - Created **Python** scripts using **Selenium** and **BeautifulSoup** to scrape makeup data from various retailers, processed into Excel files.
   - Migrated the **Azure Virtual Desktop** service to React from Knockout JS, implementing and testing new features.
@@ -26,7 +26,7 @@ title: 'resume'
 ## education
 
 - **Computer Science** (Open Source Society University - OSSU) (Apr 2024 - Today)
-  - Currently studying: [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
+  - Currently studying: [Class-based program design](https://course.ccs.neu.edu/cs2510sp22/index.html)
 
 - **Software Engineering** (Argentine University of Enterprise - UADE) (Aug 2023 - May 2024)
 
