@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Picture</title>
+</head>
+<body>
+  <h1>Upload Picture</h1>
+  <input type="file" id="fileInput" accept="image/jpeg"><br>
+  <label>Title EN:</label><input id="titleEn" type="text"><br>
+  <label>Title ES:</label><input id="titleEs" type="text"><br>
+  <label>Pub Date:</label><input id="pubDate" type="date"><br>
+  <button onclick="upload()">Upload</button>
+
+  <script>
+    async function upload() {
+      const file = document.getElementById("fileInput").files[0];
+      const titleEn = document.getElementById("titleEn").value;
+      const titleEs = document.getElementById("titleEs").value;
+      const pubDate = document.getElementById("pubDate").value;
+
+      const formData = new FormData();
+      formData.append("image", file);
+      formData.append("titleEn", titleEn);
+      formData.append("titleEs", titleEs);
+      formData.append("pubDate", pubDate);
+
+      await fetch("http://localhost:3000/upload", {
+        method: "POST",
+        body: formData
+      });
+
+      alert("Uploaded");
+    }
+  </script>
+</body>
+</html>
