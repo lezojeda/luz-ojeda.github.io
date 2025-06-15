@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Upload Picture</title>
-</head>
-<body>
-  <h1>Upload Picture</h1>
-  <input type="file" id="fileInput" accept="image/jpeg"><br>
-  <label>Title EN:</label><input id="titleEn" type="text"><br>
-  <label>Title ES:</label><input id="titleEs" type="text"><br>
-  <label>Pub Date:</label><input id="pubDate" type="date"><br>
-  <button onclick="upload()">Upload</button>
+	<head>
+		<meta charset="UTF-8">
+		<title>Upload Picture</title>
+	</head>
+	<body>
+		<h1>Upload Picture</h1>
+		<form id="uploadForm" enctype="multipart/form-data">
+			<input type="file" name="image" accept="image/jpeg"><br>
+			<label>Title EN:</label><input name="titleEn" type="text"><br>
+			<label>Title ES:</label><input name="titleEs" type="text"><br>
+			<label>Pub Date:</label><input name="pubDate" type="date"><br>
+			<button type="submit">Upload</button>
+		</form>
 
-  <script>
-    async function upload() {
-      const file = document.getElementById("fileInput").files[0];
-      const titleEn = document.getElementById("titleEn").value;
-      const titleEs = document.getElementById("titleEs").value;
-      const pubDate = document.getElementById("pubDate").value;
+		<script>
+			document
+				.getElementById("uploadForm")
+				.addEventListener("submit", async function (e) {
+					e.preventDefault();
 
-      const formData = new FormData();
-      formData.append("image", file);
-      formData.append("titleEn", titleEn);
-      formData.append("titleEs", titleEs);
-      formData.append("pubDate", pubDate);
+					const formData = new FormData(this);
 
-      await fetch("http://localhost:3000/upload", {
-        method: "POST",
-        body: formData
-      });
+					try {
+						const res = await fetch("http://localhost:3000/upload", {
+							method: "POST",
+							body: formData
+						});
 
-      alert("Uploaded");
-    }
-  </script>
-</body>
+						if (!res.ok) 
+							throw new Error("Upload failed");
+						
+						alert("Upload successful!");
+						this.reset();
+					} catch (err) {
+						alert("Error uploading file");
+						console.error(err);
+					}
+				});
+		</script>
+	</body>
 </html>

@@ -2,8 +2,10 @@ const express = require('express');
 const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
+app.use(cors());
 const upload = multer({ dest: 'tmp/' });
 
 const astroPicturesDir = path.resolve(__dirname, '..', 'src', 'content', 'pictures');
