@@ -31,8 +31,8 @@ title: 'me gusta'
      - uno de los primeros libros que leí cuando era adolescente, me enganchó desde el principio.
 - Rubicón: Los últimos años de la República Romana de Tom Holland
 - La silla plateada de C.S. Lewis
-     - leí todos los libros de las Crónicas de Narnia cuando era adolescente y este es mi favorito.
-- Las Malas de Camila Sosa Villada
+- El Hombre en Búsqueda del Sentido - Victor Frankl
+- Guerra y paz: El auge y la caída de los imperios - Peter Turchin
 
 ## música
 ### estas canciones en particular
@@ -46,6 +46,7 @@ title: 'me gusta'
 - [Self Control - Laura Branigan](https://youtu.be/RP0_8J7uxhs?si=rx8X3ljfUWB3msiH)
 - [Just Like Heaven - The Cure](https://youtu.be/n3nPiBai66M?si=qRFzxtmgIhNNPy_Q)
 - [The End of The World - Skeeter Davis](https://www.youtube.com/watch?v=DsY_kocbWaM)
+- [Invincible - TOOL](https://www.youtube.com/watch?v=hxsld16TjSU)
 
 ## películas
 - Interestellar de Christopher Nolan

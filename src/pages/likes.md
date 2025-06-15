@@ -32,8 +32,7 @@ title: 'likes'
     - one of the first books I read when I was a teenager, hooked me from the beginning
 - Rubicon: The Last Years of the Roman Republic by Tom Holland
 - The Silver Chair by C.S. Lewis
-    - read the whole Chronicles of Narnia as a teenager and this one is my favourite
-- Las Malas by Camila Sosa Villada
+- War and Peace and War: The Rise and Fall of Empires - Peter Turchin
 
 ## music
 ### these songs in particular
@@ -48,6 +47,7 @@ title: 'likes'
 - [Self Control - Laura Branigan](https://youtu.be/RP0_8J7uxhs?si=rx8X3ljfUWB3msiH)
 - [Just Like Heaven - The Cure](https://youtu.be/n3nPiBai66M?si=qRFzxtmgIhNNPy_Q)
 - [The End of The World - Skeeter Davis](https://www.youtube.com/watch?v=DsY_kocbWaM)
+- [Invincible - TOOL](https://www.youtube.com/watch?v=hxsld16TjSU)
 
 ## movies/tv series
 - Interstellar from Christopher Nolan
