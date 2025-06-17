@@ -15,3 +15,4 @@ Y que aún aplican a mis 31 y trato de tener en cuenta.
 - A la universidad fue cada vez más gente durante las últimas décadas pero los trabajos disponibles para esos universitarios no crecieron a la par. Pensá bien qué carrera estudiar y siquiera si deberías estudiar una.
 - _Todo_ es aprendible. Las únicas variables son tiempo y energía. Esas son las variables a considerar.
 - No subestimes cuánto de tu razonamiento es guiado/post-hoc. Muchas decisiones son tomadas y luego racionalizamos el por qué para sentirnos más seguros de ellas. En algunos casos es imposible hacer nada contra esto, pero en otros puede servir pensar las consecuencias concretas de la decisión para contrastar con la realidad.
+- Se suele sobreestimar lo que se puede lograr en un mes y subestimar lo que se puede en un año. Lo mismo entre un año vs 5, etc.
