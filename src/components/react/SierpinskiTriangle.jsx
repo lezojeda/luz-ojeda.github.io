@@ -64,7 +64,7 @@ export default function Sierpinski() {
 			>
 				{[...Array(8).keys()].map(i => (
 					<option key={i} value={i}>
-						{i + 1} ({24 * Math.pow(2, i)} px)
+						{3**i} ({24 * Math.pow(2, i)} px)
 					</option>
 				))}
 			</select>
