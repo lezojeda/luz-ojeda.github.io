@@ -14,12 +14,12 @@ La primera vez que vine fue en 2011 en un viaje de mochileros con amigos habiend
 
 Volví más de 6 veces en distintos años después de aquella vez, tanto verano como invierno. En todas reconfirmaba que alguna vez me mudaría o al menos vendría a morirme.
 
-De mi experiencia hasta ahora acá siento que muchas personas replicamos el experimento de Calhoun sobre el [drenaje conductual](https://es.wikipedia.org/wiki/Drenaje_conductual), con la sobrepoblación al vivir en ciudades tan masivas poblacionalmente como es ya hoy Buenos Aires con el conurbano
+De mi experiencia hasta ahora acá siento que muchas personas replicamos el experimento de Calhoun sobre el [drenaje conductual](https://es.wikipedia.org/wiki/Drenaje_conductual)
 
 >[!El experimento de qué?]
 Muy brevemente, consistió en colocar ratones en un entorno ideal sin escasez de comida, agua ni refugio. Inicialmente, la población creció rápidamente, pero con el tiempo surgieron conductas anómalas para ratones: agresividad, apatía, fallos en el cuidado de las crías. A pesar de las condiciones perfectas, la sociedad colapsó y la población se extinguió. Fue interpretado como una advertencia sobre la superpoblación y la degradación social en entornos sobrecongestionados. No todo lo que se observa en ratones puede ser extrapolado a humanos bla bla bla pero se entiende a lo que voy.
 
-La raíz de gran parte de la ansiedad que sufría allá por los constantes ruidos, apuro, ritmo frenético, sensación, correspondiendo a la realidad o no, de siempre tener demasiada gente a 100m a la redonda.
+Siendo la sobrepoblación al vivir en ciudades tan masivas poblacionalmente como es hoy Buenos Aires con el conurbano la raíz de parte de la ansiedad que sufría allá por los constantes ruidos, apuro, ritmo frenético, sensación, correspondiendo a la realidad o no, de siempre tener demasiada gente a 100m a la redonda.
 
 Hay gente a la cual esto realmente no le molesta, creen que no les molesta, les hace bien o desarrollaron mecanismos de defensa o "afrontamiento" (coping mechanisms?) para tolerarlo, porque lamentablemente no es fácil irse de donde uno nació, tiene sus contactos, su trabajo, etc.
 
