@@ -27,7 +27,7 @@ Mi punto no es un ingenuo y básico "hay que dejar todo e ir a donde uno es feli
 
 Cuántos lugares para estar verdaderamente _solo_ y en _silencio_, sin contar la vivienda de uno (que en muchos casos, ni siquiera), hay en Buenos Aires y alrededores? Se me ocurren cementerios (sin contar el de Recoleta), partes del Parque Sarmiento, la Reserva Costanera Sur y no muchos más. Cuántos hay donde uno puede perder la mirada hacia el horizonte (qué profundo)? La costanera o haciendo 1h 30 hacia el campo. Cosas que alguien sin auto o que vive demasiado lejos se le hace imposible o demasiado incómodo.
 
-Son ejemplos básicos que fui acumulando estos meses de pensar en este tema. De nuevo, hay quienes no les molesta, creen que no, no les importa, pero para mi es algo que afecta a más gente de la que se cree, solo que puede ser otro caso de condiciones no llevadas al consciente ni verbalizadas pero que existen al fin y al cabo.
+Son ejemplos básicos que fui acumulando estos meses de pensar sobre esto. De nuevo, hay quienes no les molesta, creen que no, no les importa, pero para mi es algo que afecta a más gente de la que se cree, solo que puede ser otro caso de condiciones no llevadas al consciente ni verbalizadas pero que existen al fin y al cabo.
 
 Si bien todavía sigo en una especie de luna de miel que acompaña a todo cambio hacia un ambiente novedoso, siento que soy una de esas tantas personas que no pueden tolerar vivir en lugares tan masivos como el AMBA salvo sea con algún tipo de vicio para tolerar el **quilombo**, la sobreestimulación, la falta de espacios realmente tranquilos y paisajes que despierten el sentimiento [sublime](https://lojeda.co/es/blog/sublime/).
 
