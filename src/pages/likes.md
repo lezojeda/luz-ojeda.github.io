@@ -36,6 +36,7 @@ title: 'likes'
 
 ## music
 ### these songs in particular
+- [Lateralus - TOOL](https://www.youtube.com/watch?v=Y7JG63IuaWs)
 - [Solo - Frank Ocean](https://www.youtube.com/watch?v=X_SEwgDl02E)
 - [For a Better Day - Avicii](https://www.youtube.com/watch?v=Xq-knHXSKYY)
 - [A los jóvenes de ayer - Serú Girán](https://www.youtube.com/watch?v=myNv-im5yMg)
