@@ -6,6 +6,8 @@ tags: ["personal"]
 
 [Idea de](https://taylor.town/timeline)
 
+2025 🏃‍♂️ empecé trail running
+
 2025 ⛰️ me mudé a San Carlos de Bariloche, Argentina
 
 2024 💭 leí libros de Jung por primera vez
