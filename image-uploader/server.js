@@ -5,11 +5,36 @@ const path = require("path");
 const cors = require("cors");
 
 const app = express();
-app.use(cors());
+
+// cors
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true); // curl or no-origin requests
+
+    // Allow LAN IPs
+    if (/^https?:\/\/(192\.168|10\.|172\.(1[6-9]|2[0-9]|3[0-1]))/.test(origin)) {
+      return callback(null, true);
+    }
+
+	console.log("ORIGIN: ", origin)
+    // Allow localhost and the machine hostname (thinkpadlo)
+    if (/^https?:\/\/(localhost|thinkpadlo(\.local)?)(:\d+)?$/.test(origin)) {
+      return callback(null, true);
+    }
+
+    // Reject others
+    callback(new Error("Not allowed by CORS"));
+  },
+  methods: ["GET","POST"],
+  allowedHeaders: ["Content-Type"]
+}));
+
 const upload = multer({ dest: "tmp/" });
 
 const astroPicturesDir = path.resolve(__dirname, "..", "src", "content", "pictures");
 const filesDir = path.join(astroPicturesDir, "files");
+
+app.get("/", (_, res) => { res.sendFile(path.join(__dirname, "index.html")); });
 
 app.post("/upload", upload.single("image"), (req, res) => {
 	let { titleEn, titleEs, pubDate, filename } = req.body;
@@ -63,4 +88,4 @@ app.post("/upload", upload.single("image"), (req, res) => {
 	console.log("Image successfully uploaded.\n");
 });
 
-app.listen(3000, () => console.log("Uploader running on http://localhost:3000"));
+app.listen(3000, "0.0.0.0",() => console.log("Uploader running on 0.0.0.0"));
