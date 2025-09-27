@@ -3,17 +3,40 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Upload Picture</title>
+		<link rel="stylesheet" href="style.css"  type='text/css'>
 	</head>
 	<body>
-		<h1>Upload Picture</h1>
-		<form id="uploadForm" enctype="multipart/form-data">
-			<input type="file" name="image" accept="image/jpeg"><br>
-			<label>Title EN:</label><input name="titleEn" type="text"><br>
-			<label>Title ES:</label><input name="titleEs" type="text"><br>
-			<label>Pub Date:</label><input name="pubDate" type="date"><br>
-			<label>Filename:</label><input required name="filename" type="text"><br>
-			<button type="submit">Upload</button>
-		</form>
+		<div class="container">
+			<h1>Upload Picture</h1>
+			<form id="uploadForm" enctype="multipart/form-data">
+				<div class="form-group">
+					<label for="image">Select Image:</label>
+					<input type="file" id="image" name="image" accept="image/jpeg">
+				</div>
+				
+				<div class="form-group">
+					<label for="titleEn">Title (English):</label>
+					<input type="text" id="titleEn" name="titleEn">
+				</div>
+				
+				<div class="form-group">
+					<label for="titleEs">Title (Español):</label>
+					<input type="text" id="titleEs" name="titleEs">
+				</div>
+				
+				<div class="form-group">
+					<label for="pubDate">Publication Date:</label>
+					<input type="date" id="pubDate" name="pubDate">
+				</div>
+				
+				<div class="form-group">
+					<label for="filename">Filename:</label>
+					<input type="text" id="filename" name="filename" required>
+				</div>
+				
+				<button type="submit">Upload Picture</button>
+			</form>
+		</div>
 
 		<script>
 			document

@@ -16,7 +16,6 @@ app.use(cors({
       return callback(null, true);
     }
 
-	console.log("ORIGIN: ", origin)
     // Allow localhost and the machine hostname (thinkpadlo)
     if (/^https?:\/\/(localhost|thinkpadlo(\.local)?)(:\d+)?$/.test(origin)) {
       return callback(null, true);
@@ -28,6 +27,8 @@ app.use(cors({
   methods: ["GET","POST"],
   allowedHeaders: ["Content-Type"]
 }));
+
+app.use(express.static(__dirname));
 
 const upload = multer({ dest: "tmp/" });
 
