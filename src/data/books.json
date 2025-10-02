@@ -2,6 +2,105 @@
 	{
 		"2025": [
 			{
+				"title": "Los 70, la década que siempre vuelve",
+				"link": "https://www.goodreads.com/book/show/55437142-los-70-la-d-cada-que-siempre-vuelve",
+				"genres": [
+					"history",
+					"latin american"
+				],
+				"status": "2025-09-25T00:00:00.000Z",
+				"author": "Ceferino Reato"
+			},
+			{
+				"title": "Annihilation (Southern Reach, #1)",
+				"link": "https://www.goodreads.com/book/show/17934530-annihilation",
+				"genres": [
+					"science fiction",
+					"horror",
+					"fiction"
+				],
+				"status": "2025-09-15T00:00:00.000Z",
+				"author": "Jeff VanderMeer"
+			},
+			{
+				"title": "The Undiscovered Self",
+				"link": "https://www.goodreads.com/book/show/67891.The_Undiscovered_Self",
+				"genres": [
+					"psychology",
+					"philosophy",
+					"nonfiction"
+				],
+				"status": "2025-09-08T00:00:00.000Z",
+				"author": "Carl Jung"
+			},
+			{
+				"title": "La casa de los espíritus",
+				"link": "https://www.goodreads.com/book/show/106192.La_casa_de_los_esp_ritus",
+				"genres": [
+					"fiction",
+					"magical realism",
+					"latin american"
+				],
+				"status": "2025-08-17T00:00:00.000Z",
+				"author": "Isabel Allende",
+				"loved": true
+			},
+			{
+				"title": "Mistborn: The Final Empire",
+				"link": "https://www.goodreads.com/book/show/68428.Mistborn",
+				"genres": [
+					"fantasy",
+					"fiction",
+					"high fantasy"
+				],
+				"status": "2025-07-14T00:00:00.000Z",
+				"author": "Brandon Sanderson"
+			},
+			{
+				"title": "Los Jefes",
+				"link": "https://www.goodreads.com/book/show/7725577-aforismos-sobre-el-arte-de-vivir",
+				"genres": [
+					"short stories",
+					"fiction",
+					"latin american"
+				],
+				"status": "2025-06-22T00:00:00.000Z",
+				"author": "Mario Vargas Llosa"
+			},
+			{
+				"title": "Aforismos sobre el arte de vivir",
+				"link": "https://www.goodreads.com/book/show/7725577-aforismos-sobre-el-arte-de-vivir",
+				"genres": [
+					"philosophy",
+					"nonfiction",
+					"classics"
+				],
+				"status": "2025-06-18T00:00:00.000Z",
+				"author": "Arthur Schopenhauer"
+			},
+			{
+				"title": "The Fisherman",
+				"link": "https://www.goodreads.com/book/show/29901930-the-fisherman",
+				"genres": [
+					"horror",
+					"fiction",
+					"fantasy"
+				],
+				"status": "2025-06-07T00:00:00.000Z",
+				"author": "John Langan"
+			},
+			{
+				"title": "Kitchen Confidential: Adventures in the Culinary Underbelly",
+				"link": "https://www.goodreads.com/book/show/33313.Kitchen_Confidential",
+				"genres": [
+					"memoir",
+					"nonfiction",
+					"food"
+				],
+				"status": "2025-05-31T00:00:00.000Z",
+				"author": "Anthony Bourdain"
+			},
+			{
 				"title": "They Thought They Were Free",
 				"link": "https://www.goodreads.com/book/show/978689.They_Thought_They_Were_Free",
 				"genres": [
@@ -9,8 +108,9 @@
 					"nonfiction",
 					"politics"
 				],
-				"status": "currently reading",
-				"author": "Milton Stanford Mayer"
+				"status": "2025-05-16T00:00:00.000Z",
+				"author": "Milton Stanford Mayer",
+				"loved": true
 			},
 			{
 				"title": "El Retrato de Dorian Grey",
@@ -168,7 +268,7 @@
 				],
 				"status": "2024-12-25T00:00:00.000Z",
 				"author": "Carl Jung",
-"loved": true
+				"loved": true
 			},
 			{
 				"title": "Diario de una temporada en el quinto piso",
