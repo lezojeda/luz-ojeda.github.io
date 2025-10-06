@@ -23,7 +23,7 @@ const headTitle =
 
 <html lang={lang}>
 	<head>
-		<script>
+		<script is:inline>
 			function setDraculaThemeInOctober() {
 				const month = new Date().getMonth();
 				if (month === 9) {
@@ -34,7 +34,7 @@ const headTitle =
 				return false;
 			}
 			(function () {
-				if (setDraculaThemeInOctober()) return;
+				 if (setDraculaThemeInOctober()) return;
 				const theme = (() => {
 					if (
 						typeof localStorage !== "undefined" &&
