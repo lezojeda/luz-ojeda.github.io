@@ -8,7 +8,7 @@ tags: ["personal"]
 2025 🏃‍♂️ started trail running
 
 2025 ⛰️ moved to Bariloche, Argentina
-
+****
 2024 💭 read Jung works for the first time
 
 2024 🍞 began learning to bake
@@ -63,8 +63,6 @@ tags: ["personal"]
 
 2019 🧗‍♀️ climbed the main peak of Cerro Catedral in Bariloche
 
-2018 💔 second breakup
-
 2018 💻 discovered programming in a college statistics course
 
 2018 😕 first depression symptoms
@@ -91,8 +89,6 @@ tags: ["personal"]
 
 2016 🏔️ ascent to the Argentine peak of Co. Tronador with 4 friends from the mountaineering guide school
 
-2015 ❤️ got into a relationship for the second time
-
 2015 🧗‍♀️ started the mountain guide career
 
 2015 🌳 trip to Bolsón with friends
@@ -105,15 +101,11 @@ tags: ["personal"]
 
 2013 🎵 stopped playing the drums and sold the kit
 
-2013 💔 first breakup
-
 2013 🏔️ first trip to Vallecitos, Mendoza to try to climb the [Co. Plata](https://es.wikipedia.org/wiki/Cerro_El_Plata) (~6000m)
 
 2012 🏥 said goodbye to my gallbladder, first time hospitalized
 
 2012 🏔️ climbed the Ventana hills in PBA and Champaquí (highest point in Córdoba)
-
-2012 ❤️ first partner
 
 2012 🧬 started studying Biology at the University of Buenos Aires
 

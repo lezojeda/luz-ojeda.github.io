@@ -64,8 +64,6 @@ tags: ["personal"]
 
 2019 🧗‍♀️ escalé el pico principal del cerro Catedral en Bariloche
 
-2018 💔 segunda ruptura
-
 2018 💻 descubrí la programación en un curso de estadística de la facultad
 
 2018 😕 primeros síntomas de depresión
@@ -92,13 +90,11 @@ tags: ["personal"]
 
 2016 🏔️ ascenso al pico argentino del Co. Tronador con 4 amigos de la escuela de guías
 
-2015 ❤️ me puse en pareja por segunda vez
-
 2015 🧗‍♀️ carrera para guía de montaña
 
 2015 🌳 viaje al Bolsón con amigos
 
-2014 🎒 viaje sola por la patagonia chilena
+2014 🎒 viaje solo por la patagonia chilena
 
 2014 🧗‍♀️ escalada en roca
 
@@ -106,19 +102,15 @@ tags: ["personal"]
 
 2013 🎵 dejé de tocar la batería y la vendí
 
-2013 💔 primera ruptura
-
 2013 🏔️ primer viaje a Vallecitos, Mendoza para intentar subir el [Co. Plata](https://es.wikipedia.org/wiki/Cerro_El_Plata) (~6000m)
 
 2012 🏥 le dije adiós a mi vesícula biliar, primera vez internado
 
 2012 🏔️ subí los cerros Ventana en PBA y Champaquí (punto más alto de Córdoba)
 
-2012 ❤️ primera pareja
-
 2012 🧬 empecé a estudiar Biología en la Universidad de Buenos Aires
 
-2012 🎒 viaje sola por el noroeste argentino
+2012 🎒 viaje solo por el noroeste argentino
 
 2012 🎒 viaje de egresados con amigos al Bolsón
 
