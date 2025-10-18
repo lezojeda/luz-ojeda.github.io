@@ -15,7 +15,7 @@ const blog = defineCollection({
 const microblog = defineCollection({
 	type: "content",
 	schema: z.object({
-		title: z.string(),
+		title: z.string().optional(),
 		pubDate: z.coerce.date(),
 	}),
 });

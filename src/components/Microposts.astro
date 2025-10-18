@@ -18,8 +18,12 @@ const orderedPosts = posts.sort(sortByDate);
             const { Content } = await micropost.render();
             return (
                 <li>
-                    <div class="flex-center justify-between">
-                        <h3 class="post-title">{micropost.data?.title}</h3>
+                    <div class="micropost-header">
+                        <div class="title-section">
+                            {micropost.data?.title && (
+                                <h3 class="post-title">{micropost.data.title}</h3>
+                            )}
+                        </div>
                         <span class="date">
                             <FormattedDate pubDate={micropost.data?.pubDate} includeYearInDate />
                         </span>
@@ -31,3 +35,20 @@ const orderedPosts = posts.sort(sortByDate);
         })
     }
 </ul>
+
+<style>
+    .micropost-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .title-section {
+        flex: 1;
+    }
+    
+    .date {
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+</style>
