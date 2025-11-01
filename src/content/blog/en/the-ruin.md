@@ -1,6 +1,6 @@
 ---
 title: "The Ruin"
-pubDate: 2025-01-14
+pubDate: 2025-11-01
 tags: ["misc"]
 ---
 
