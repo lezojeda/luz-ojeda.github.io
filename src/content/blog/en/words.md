@@ -15,6 +15,7 @@ useHeadings: false
 - pallor
 - inane
 - thwart
+- syzygy
 
 ## spanish
 - nistagmo
