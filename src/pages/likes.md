@@ -8,7 +8,6 @@ title: 'likes'
 - owls
 - tea and/or Mate 🧉 in a cold day (even better if it is raining) as windows fog up
 - mushrooms (specially finding one in the wild)
-- spending time on my balcony on spring/summer times. And summer nights themselves.
 - taking care of my plants
 - cooking while hearing music with headphones on
 - saturday mornings with no errands to run nor things to do

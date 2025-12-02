@@ -8,7 +8,6 @@ title: 'me gusta'
 - búhos/lechuzas
 - un té y/o mate en un día frío mientras las ventanas se empañan
 - los hongos (especialmente encontrar uno en la naturaleza) y las plantas
-- pasar tiempo en mi balcón en primavera/verano. Y las noches de verano en sí.
 - cuidar de mis plantas
 - cocinar mientras escucho música con auriculares
 - sábados por la mañana sin deberes ni nada que hacer
