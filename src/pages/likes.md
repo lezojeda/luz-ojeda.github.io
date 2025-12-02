@@ -25,6 +25,8 @@ title: 'likes'
 - [Calibre](https://calibre-ebook.com/)
 
 ## books
+[Goodreads favorites shelf](https://www.goodreads.com/review/list/116528903-lucas-ojeda?shelf=favorites)
+
 - Foundation series by Isaac Asimov
 - The Silmarillion by JRR Tolkien
 - Journey to the Center of the Earth by Jules Verne
