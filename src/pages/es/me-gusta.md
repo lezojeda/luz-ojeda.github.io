@@ -24,6 +24,8 @@ title: 'me gusta'
 - [Calibre](https://calibre-ebook.com/)
 
 ## libros
+[Favoritos en Goodreads](https://www.goodreads.com/review/list/116528903-lucas-ojeda?shelf=favorites)
+
 - Serie de la Fundación por Isaac Asimov
 - El Silmarillion de JRR Tolkien
 - Viaje al Centro de la Tierra de Julio Verne
