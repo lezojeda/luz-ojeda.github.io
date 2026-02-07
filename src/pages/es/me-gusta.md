@@ -49,6 +49,7 @@ title: 'me gusta'
 - [Just Like Heaven - The Cure](https://youtu.be/n3nPiBai66M?si=qRFzxtmgIhNNPy_Q)
 - [The End of The World - Skeeter Davis](https://www.youtube.com/watch?v=DsY_kocbWaM)
 - [Invincible - TOOL](https://www.youtube.com/watch?v=hxsld16TjSU)
+- Disintegration - The Cure
 
 ## películas
 - Interestellar de Christopher Nolan
