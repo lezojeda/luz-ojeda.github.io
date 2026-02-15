@@ -20,3 +20,4 @@ Just a list of what I consider 10/10 albums from music I've listened throughout 
 - [We Are the Night - The Chemical Brothers](https://www.youtube.com/watch?v=G9qtaCrD6oI&list=PLjIuADMrDKIasarkrbLrft0sv25HP2Jqn)
 - [For Ever - Jungle](https://www.youtube.com/watch?v=Z03ThlGgVFo&list=PLXX-njRX-TgJOZ7qbQNnEHXCsUgYku3cN)
 - [Breakfast in America - Supertramp](https://www.youtube.com/watch?v=BL3iuizcr0Q)
+- [In The Court Of The Crimson King](https://www.youtube.com/watch?v=0ju5LRTMFLw)
