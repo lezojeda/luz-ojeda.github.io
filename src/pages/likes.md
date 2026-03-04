@@ -17,6 +17,7 @@ title: 'likes'
 - steaming showers
 - short sentences
 - jungian psychology
+- winter
 
 ## digital
 - [Anki](https://apps.ankiweb.net/)

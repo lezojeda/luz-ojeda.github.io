@@ -16,6 +16,7 @@ title: 'me gusta'
 - duchas con agua muy caliente
 - oraciones cortas
 - psicología junguiana
+- el invierno
 
 ## digital
 - [Anki](https://apps.ankiweb.net/)
