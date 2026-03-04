@@ -46,6 +46,7 @@ title: 'cv'
 
 <details>
   <summary>frameworks, librerías y otras herramientas</summary>
+
   - **Usadas en ámbito profesional:**
     * React y Vue
     * Redux
