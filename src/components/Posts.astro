@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 interface Props {
-    posts: CollectionEntry<"blog">[];
+	posts: CollectionEntry<"blog">[];
 }
 
 import sortByDate from "../utils/dates";
@@ -12,57 +12,57 @@ const orderedPosts = posts.sort(sortByDate);
 
 const postsByYear = new Map<number, CollectionEntry<"blog">[]>();
 orderedPosts.forEach(post => {
-    const year = post.data.pubDate.getFullYear();
+	const year = post.data.pubDate.getFullYear();
 
-    if (!postsByYear.get(year)) {
-        postsByYear.set(year, []);
-    }
+	if (!postsByYear.get(year)) {
+		postsByYear.set(year, []);
+	}
 
-    postsByYear.get(year)?.push(post);
+	postsByYear.get(year)?.push(post);
 });
 
 const tags = [
-    ...new Set(
-        posts
-            .map(post => post.data.tags)
-            .filter(Boolean)
-            .flat()
-    ),
+	...new Set(
+		posts
+			.map(post => post.data.tags)
+			.filter(Boolean)
+			.flat()
+	),
 ];
 ---
 
 <>
-    <div>
-        <Tags tags={tags} />
-    </div>
-    {
-        [...postsByYear.entries()].map(([year, posts]) => (
-            <>
-                <h2>{year}</h2>
-                <ul class="no-style-list">
-                    {posts?.map((p: CollectionEntry<"blog">) => (
-                        <li
-                            class={`flex-center justify-between ${p.data?.tags ? " " + p.data.tags.join(" ") : ""}`}
-                        >
-                            <h3>
-                                <a href={`blog/${p.slug.substring(p.slug.lastIndexOf("/") + 1)}`}>
-                                    {p.data?.title}
-                                </a>
-                            </h3>
-                            <span class="date">
-                                <FormattedDate pubDate={p.data?.pubDate} />
-                            </span>
-                        </li>
-                    ))}
-                </ul>
-            </>
-        ))
-    }
+	<div>
+		<Tags tags={tags} />
+	</div>
+	<ul class="no-style-list">
+		{
+			posts.map(p => (
+				<>
+					<li
+						class={`flex-center justify-between ${p.data?.tags ? " " + p.data.tags.join(" ") : ""}`}
+					>
+						<h3>
+							<a
+								href={`blog/${p.slug.substring(p.slug.lastIndexOf("/") + 1)}`}
+							>
+								{p.data?.title}
+							</a>
+						</h3>
+						<span class="date">
+							<FormattedDate pubDate={p.data?.pubDate} includeYearInDate />
+						</span>
+					</li>
+				</>
+			))
+		}
+	</ul>
 </>
 
 <style>
-    h3 {
-        font-weight: normal;
-        padding-right: 12px;
-    }
+	h3 {
+		font-weight: normal;
+		padding-right: 12px;
+        margin: 12px;
+	}
 </style>

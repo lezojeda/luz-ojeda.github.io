@@ -1,9 +1,11 @@
 ---
 import { getLangFromUrl } from "../i18n/utils";
 
+// includeYearInDate was useful when I grouped posts by year on the main page, it's true in all
+// its use cases, leaving it here in case I change my mind again in the future
 interface Props {
-    pubDate: Date;
-    includeYearInDate?: boolean;
+	pubDate: Date;
+	includeYearInDate?: boolean;
 }
 
 const { pubDate, includeYearInDate = false } = Astro.props;
@@ -11,13 +13,19 @@ const lang = getLangFromUrl(Astro.url);
 ---
 
 <time datetime={pubDate?.toISOString()}>
-    {
-        pubDate
-            .toLocaleDateString(lang, {
-                month: "short",
-                day: "numeric",
-                ...(includeYearInDate && { year: "numeric" }),
-            })
-            .toLowerCase()
-    }
+	{
+		pubDate
+			.toLocaleDateString(lang, {
+				month: "short",
+				day: "numeric",
+				...(includeYearInDate && { year: "numeric" }),
+			})
+			.toLowerCase()
+	}
 </time>
+
+<style>
+	time {
+		width: max-content;
+	}
+</style>
