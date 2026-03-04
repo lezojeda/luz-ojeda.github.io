@@ -5,7 +5,7 @@ title: 'resume'
 
 [Download](/Lucas_E_Ojeda_Resume.pdf)
 
-## work experience (+5 years)
+## work experience (+6 years)
 
 - **Compass** (Aug 2024 - Today)
   - Reorganized the  internal marketing page with grid and list view, pagination, multiple filters and folders system

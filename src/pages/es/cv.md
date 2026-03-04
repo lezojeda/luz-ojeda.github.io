@@ -5,7 +5,7 @@ title: 'cv'
 
 [Descargar](/Lucas_E_Ojeda_Resume_ES.pdf)
 
-## experiencia profesional (+5 años)
+## experiencia profesional (+6 años)
 ---
 
 - ### Ago 2024 - actualidad: [Compass](https://www.compass.com/)
