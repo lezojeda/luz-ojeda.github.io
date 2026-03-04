@@ -54,8 +54,9 @@ title: 'cv'
     * Material UI
     * Git
     * Jest (y React Testing Library)
+    * Docker
+    * Chronosphere y Datadog
   - **Usadas en proyectos personales y cursos:**
     * Express
     * PostgreSQL
-    * Docker
 </details>

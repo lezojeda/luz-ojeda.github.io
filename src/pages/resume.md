@@ -58,8 +58,9 @@ title: 'resume'
     - Material UI
     - Git
     - Jest (and React Testing Library)
+    - Docker
+    - Chronosphere y Datadog
   - **Used in personal projects/courses:**
     - Express
     - PostgreSQL
-    - Docker
 </details>
