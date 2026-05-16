@@ -2,7 +2,7 @@
 
 export PATH="/home/lezojeda/.nvm/versions/node/v24.11.1/bin:$PATH"
 
-cd /home/lezojeda/repositories/luz-ojeda.github.io || exit
+cd /home/lezojeda/repositories/lojeda || exit
 
 git pull
 npm install
