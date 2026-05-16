@@ -4,9 +4,7 @@ pubDate: 2023-10-31
 tags: ["tech"]
 ---
 
-**I've recently migrated to [Astro](https://astro.build/) so this post is mostly outdated regarding this website**
-
-Thanks for your understanding ≽^•⩊•^≼
+2026 update: I'm currently self-hosting my webpage via Cloudflare and nginx so not everything here still applies.
 ___
 
 I originally created this page for professional and labor-related purposes. The first pages were resume, about me and projects. Only afterwards did I start adding more personal ones like likes and blog posts. Even the about me section has a professional rather than personal focus, I plan to update it in the future.

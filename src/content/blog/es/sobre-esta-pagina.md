@@ -5,9 +5,7 @@ tags: ["tech"]
 updatedDate: 2024-06-26
 ---
 
-**Recientemente migré a [Astro](https://astro.build/), por lo que esta publicación no es del todo relevante a esta página**
-
-Gracias por su comprensión ≽^•⩊•^≼
+Actualización 2026: estoy self-hosteando mi página via cloudflare y nginx por lo que no todo lo que se dice acá aplica
 ___
 
 En un principio creé esta página con fines profesionales y laborales. Las primeras secciones fueron las de mi cv, sobre mí y proyectos. Sólo después comencé a agregar aquellas más personales como "me gusta" y el blog con posts. Aún la sección de sobre mí tiene un enfoque profesional más que personal, en en el futuro planeo actualizarla.
