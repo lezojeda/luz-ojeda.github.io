@@ -4,7 +4,7 @@ export HOME="/home/lezojeda"
 export PATH="/usr/bin:/bin"
 export GIT_SSH_COMMAND="ssh -i /home/lezojeda/.ssh/github -o StrictHostKeyChecking=no"
 
-cd /home/lezojeda/repositories/luz-ojeda.github.io
+cd /home/lezojeda/repositories/lojeda
 
 if [[ -n $(/usr/bin/git status -s src/content/pictures/) ]]; then
     /usr/bin/git add src/content/pictures/
