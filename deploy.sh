@@ -1,11 +1,8 @@
 #!/bin/bash
 
-set -e
+export PATH="/home/lezojeda/.nvm/versions/node/v24.11.1/bin:$PATH"
 
-export PATH="/usr/local/bin:/usr/bin:/bin"
-
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-cd "$SCRIPT_DIR"
+cd /home/lezojeda/repositories/luz-ojeda.github.io || exit
 
 git pull
 npm install
