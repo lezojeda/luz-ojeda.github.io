@@ -15,8 +15,9 @@
 	},
 	{
 		"repo_url": "https://github.com/lezojeda/cook-web#readme",
-		"url": "https://recetassimples.app",
+		"url": "https://cook-web-weathered-thunder-7639.fly.dev/",
 		"year": 2024,
+		"finished": 2024,
 		"es": {
 			"title": "Recetas simples app",
 			"description": "Aplicación web full stack para la gestión de recetas de cocina deployada en Fly.io. Svelte, .NET y PostgreSQL"
@@ -29,6 +30,7 @@
 	{
 		"repo_url": "https://github.com/lezojeda/cook-api#readme",
 		"year": 2024,
+		"finished": 2024,
 		"es": {
 			"title": "Recetas simples API",
 			"description": "API web hecha con .NET C# utilizando una base de datos PostgreSQL"
@@ -43,11 +45,11 @@
 		"year": 2023,
 		"es": {
 			"title": "Página Personal",
-			"description": "El sitio web que estás viendo actualmente. La primera versión utilizaba Jekyll pero luego fue migrada a Astro"
+			"description": "El sitio web que estás viendo actualmente. La primera versión utilizaba Jekyll pero luego fue migrada a Astro. Servida desde mi server casero via nginx en lojeda.co."
 		},
 		"en": {
 			"title": "Personal website",
-			"description": "The website you are currently seeing. The first version used Jekyll but I've migrated to Astro"
+			"description": "The website you are currently seeing. The first version used Jekyll but I've migrated to Astro. Served from my home server via nginx in lojeda.co."
 		}
 	},
 	{

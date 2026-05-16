@@ -19,7 +19,8 @@ app.use(cors({
     if (new RegExp(`^https?://(localhost|${HOST_HOSTNAME}(\\.local)?)(:\\d+)?$`).test(origin)) {
       return callback(null, true);
     }
-    // Reject others
+
+    console.error("CORS blocked origin:", origin);
     callback(new Error("Not allowed by CORS"));
   },
   methods: ["GET","POST"],
