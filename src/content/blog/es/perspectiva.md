@@ -1,6 +1,7 @@
 ---
 title: Perspectiva
 pubDate: 2025-06-20
+tags: ["personal"]
 ---
 
 Algo bueno que te dan los años es perspectiva. En oposición a la visión-túnel que en mi experiencia personal y lo observado en otros abunda cuando somos más jóvenes.
